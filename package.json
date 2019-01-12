@@ -1,0 +1,31 @@
+{
+  "name": "daylog.sh",
+  "version": "0.0.0",
+  "description": "website for daylog",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "csskit bundle deps.css -o bundle.css",
+    "build": "npm run build-css",
+    "start": "budo -l",
+    "deploy": "staticland . daylog.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daylog/daylog.sh.git"
+  },
+  "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/daylog/daylog.sh/issues"
+  },
+  "homepage": "https://github.com/daylog/daylog.sh#readme",
+  "dependencies": {
+    "budo": "^11.5.0",
+    "csskit": "^2.0.0",
+    "csskit-base": "^1.0.0",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "staticland": "^3.2.2"
+  }
+}
