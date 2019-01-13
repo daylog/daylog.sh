@@ -75,6 +75,7 @@ header .logo {
   border-radius: 2px;
   display: inline-block;
   cursor: pointer;
+  margin-top: 4px;
 }
 
 .button:hover {
@@ -216,7 +217,7 @@ header .logo {
 }
 
 .fs8 {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 @media (min-width: 728px) {
@@ -242,6 +243,10 @@ header .logo {
 
   .ns-fs6 {
     font-size: 45px;
+  }
+
+  .ns-fs8 {
+    font-size: 80px;
   }
 }
 
@@ -713,6 +718,10 @@ header .logo {
 
   .ns-fs-128 {
     font-size: 100px;
+  }
+
+  .ns-fs-80 {
+    font-size: 80px;
   }
 
   .ns-fs-70 {
