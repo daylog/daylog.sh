@@ -3,7 +3,7 @@ html, body {
 }
 
 header .logo {
-  width: 80px;
+  width: 100px;
   height: auto;
 }
 
@@ -23,8 +23,14 @@ header .logo {
   color: #83d0ff;
 }
 
-html, body {
-  
+
+
+.bg-light-orange {
+  background-color: #ff9c66;
+}
+
+.light-orange {
+  color: #ff9c66;
 }
 
 .container {
@@ -207,6 +213,10 @@ html, body {
 
 .fs7 {
   font-size: 50px;
+}
+
+.fs8 {
+  font-size: 80px;
 }
 
 @media (min-width: 728px) {
